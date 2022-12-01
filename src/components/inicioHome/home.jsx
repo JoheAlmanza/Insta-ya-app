@@ -1,0 +1,21 @@
+const Inicio = () => {
+    return(
+        <div> 
+    <header class="masthead text-center text-white">
+        <div class="masthead-content">
+            <div class="container px-5">
+                <h1 class="masthead-heading mb-0">La Comunicación</h1>
+                <h2 class="masthead-subheading mb-0">Nunca había sido tan fácil...</h2>
+                <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Registrate Ya</a>
+            </div>
+        </div>
+        <div class="bg-circle-1 bg-circle"></div>
+        <div class="bg-circle-2 bg-circle"></div>
+        <div class="bg-circle-3 bg-circle"></div>
+        <div class="bg-circle-4 bg-circle"></div>
+        </header>
+       </div>
+    )
+}
+
+export default Inicio
